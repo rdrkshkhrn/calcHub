@@ -1,4 +1,4 @@
-CalcHub
+                                                               **  CalcHub  **
 CalcHub is a comprehensive financial calculator hub built using React and Chakra UI, designed to simplify and streamline various financial calculations for users. From loan EMI estimations to tax calculations, this tool provides real-time, interactive, and detailed breakdowns to help users make informed financial decisions.
 
 Features
