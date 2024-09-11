@@ -1,0 +1,29 @@
+[
+  {
+    "name": "EMI",
+    "image": "emi.png",
+    "link": "/emi"
+  },
+  {
+    "name": "Fixed deposit",
+    "image": "fd.png",
+    "link": "/fixedDeposit"
+  },
+  {
+    "name": "SIP",
+    "image": "sip.png",
+    "link": "/sip"
+  },
+  {
+    "name": "SWP",
+    "image": "inflation.png",
+    "link": "/swp"
+  },
+  
+  {
+    "name" : "GST",
+    "image" : "gst.png",
+    "link" : "/gst"
+  }
+]
+
