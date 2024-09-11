@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+CalcHub
+CalcHub is a comprehensive financial calculator hub built using React and Chakra UI, designed to simplify and streamline various financial calculations for users. From loan EMI estimations to tax calculations, this tool provides real-time, interactive, and detailed breakdowns to help users make informed financial decisions.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+1. EMI Calculator
+     The EMI Calculator allows users to calculate their monthly installment, total interest, and total repayment amount for loans. It also offers flexible prepayment   
+     options to reduce the loan tenure and interest paid.
+    Loan Customization: Input loan amount, interest rate, and tenure to calculate monthly EMI, total interest, and total repayment amount.
+    Prepayment Options: Choose from extra EMIs, lump sum prepayments, or EMI percentage increases.
+   Real-Time Results: Instantly updates EMI, total amount, interest, and loan duration upon changes in user inputs.
+   Interactive Sliders: Adjust loan parameters easily using sliders.
+2. Fixed Deposit (FD) Calculator
+    Estimate the maturity amount and interest earned on an investment through the FD Calculator.
+    User Input Flexibility: Adjust the investment amount, interest rate, and time period with sliders.
+    Real-Time Calculations: Instant display of the estimated returns and total maturity value. 
 
-## Available Scripts
+3. SIP Calculator
+  The SIP Calculator offers two different calculation methods to help users plan their investments:
+  Invested Amount: Calculate based on a fixed, recurring investment amount.
+  Goal Amount: Determine the required investment needed to reach a specific financial goal.
 
-In the project directory, you can run:
+5. SWP Calculator
+   Plan your systematic withdrawals from investments with the SWP Calculator.
+   Flexible Withdrawals: Set a monthly withdrawal amount and calculate how long your investment will last.
+   Growth Simulation: Calculate the remaining investment amount after a certain period based on an expected annual return rate.
+6. GST Calculator
+   The GST Calculator allows users to determine the total amount inclusive or exclusive of GST.
+   Tax Slabs: Select from different GST tax slabs (0.25%, 3%, 5%, 12%, 18%, 28%) to get accurate results.
+   Flexible Calculation: Calculate for both "including" and "excluding" GST scenarios.
 
-### `npm start`
+Tech Stack :-
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React: A JavaScript library for building user interfaces.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Chakra UI: A modern and accessible component library for building responsive UIs quickly.
 
-### `npm test`
+JavaScript: The programming languages used for creating interactivity.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+CSS: For styling components and layouts.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the repository:
+ git clone https://github.com/rdrkshkhrn/calcHub.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Navigate to the project directory:
+cd calchub
 
-### `npm run eject`
+Install dependencies:
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Run the application:
+npm start
+The application will run at http://localhost:3000.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+How to Use:-
+Open the app in your browser.
+Select the calculator from the available options (EMI, FD, SIP, SWP, GST).
+Use the sliders and input fields to enter the necessary parameters (amount, rate, tenure, etc.).
+The results will be updated in real-time based on your inputs.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributing:-
+Feel free to fork the repository and make contributions! Please create a new branch for your features or bug fixes, and make pull requests against the main branch.
