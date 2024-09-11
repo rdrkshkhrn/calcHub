@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router } from "react-router-dom";
 import Sidebar from "./sidebars/Sidebar";
 import Sidebarr from "./sidebars/sidebarr";
 import { ChakraProvider } from "@chakra-ui/react";
@@ -9,7 +8,6 @@ function App() {
   const [selectedIndex, setSeletedIndex] = useState(-1);
   return (
     <ChakraProvider>
-      <Router>
         <Box
           h={"100vh"}
           display={"flex"}
@@ -17,11 +15,11 @@ function App() {
           overflow={"hidden"}
           w={"full"}
         >
-          <Sidebarr selectedIndex={selectedIndex} setSelectedIndex={setSeletedIndex}/>
           <Sidebar selectedIndex={selectedIndex} setSelectedIndex={setSeletedIndex}/>
+          <Sidebarr selectedIndex={selectedIndex} setSelectedIndex={setSeletedIndex}/>
+          
           <AppRouter />
         </Box>
-      </Router>
     </ChakraProvider>
   );
 }

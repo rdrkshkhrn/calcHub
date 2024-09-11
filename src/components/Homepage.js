@@ -14,7 +14,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 function HomePage() {
   return (
-    <Box p={8} Width="full" mx={2}>
+    <Box p={8} width="full" mx={2}>
       <Heading
         as="h1"
         size="2xl"
