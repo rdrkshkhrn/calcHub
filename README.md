@@ -1,5 +1,6 @@
 
 # CalcHub
+#### Deployed link : https://calc-hub-grow.netlify.app/
 
 This is a comprehensive financial calculator hub built using React and Chakra UI, designed to simplify and streamline various financial calculations for users. From loan EMI estimations to tax calculations, this tool provides real-time, interactive, and detailed breakdowns to help users make informed financial decisions.
 
@@ -56,13 +57,14 @@ Flexible Calculation: Calculate for both "including" and "excluding" GST scenari
 **JavaScript**: The programming languages used for creating interactivity.
 
 
-## Screenshots (For tablet and pc screen)
+## Screenshots 
 
 ![App Screenshot](https://i.ibb.co/MPDYsND/sw.png)
 
-## Screenshots (For mobile screen)
 
-![App Screenshot](https://i.ibb.co/JpczwGB/sm.png)
+![App Screenshot](https://i.ibb.co/WcLt1tB/mw-emi.png)
+
+![App Screenshot](https://i.ibb.co/4wyJ25V/sw-sip.png)
 ## Installation
 
 Clone the repository:
