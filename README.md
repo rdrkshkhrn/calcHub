@@ -26,17 +26,17 @@ This is a comprehensive financial calculator hub built using React and Chakra UI
 3. SIP Calculator:-
   The SIP Calculator offers two different calculation methods to help users plan their investments:
 
-  i.) Invested Amount: Calculate based on a fixed, recurring investment amount.
+      i.) Invested Amount: Calculate based on a fixed, recurring investment amount.
 
-ii.) Goal Amount: Determine the required investment needed to reach a specific financial goal.
+      ii.) Goal Amount: Determine the required investment needed to reach a specific financial goal.
 
 4. SWP Calculator:-
 
     Plan your systematic withdrawals from investments with the SWP Calculator.
 
-Flexible Withdrawals: Set a monthly withdrawal amount and calculate how long your investment will last.
+    Flexible Withdrawals: Set a monthly withdrawal amount and calculate how long your investment will last.
 
-Growth Simulation: Calculate the remaining investment amount after a certain period based on an expected annual return rate.
+    Growth Simulation: Calculate the remaining investment amount after a certain period based on an expected annual return rate.
 
 5. GST Calculator
 
@@ -44,7 +44,7 @@ Growth Simulation: Calculate the remaining investment amount after a certain per
  
    Tax Slabs: Select from different GST tax slabs (0.25%, 3%, 5%, 12%, 18%, 28%) to get accurate results.
 
-Flexible Calculation: Calculate for both "including" and "excluding" GST scenarios.
+   Flexible Calculation: Calculate for both "including" and "excluding" GST scenarios.
 
 
 
