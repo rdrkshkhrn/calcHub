@@ -10,7 +10,7 @@ function Sidebar({
   return (
     <Box display = {{base : "none",md: "flex"}} flexDirection={"column"} bg={"cyan.700"} minW={'260px'} w= "260px" h={"100vh"} p={4} overflow={"auto"}>
       <Tooltip label="Go to homepage" aria-label="Go to homepage">
-      <Link as={Link} to="/" textDecoration="none">
+      <Link as={Link} to="/" textDecoration="none" onClick={()=>setSelectedIndex(-1)}>
         <Flex alignItems={"center"} my={6} justifyContent={"center"}>
           <FaCalculator color="white" size="28px" />
           <Heading

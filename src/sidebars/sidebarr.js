@@ -106,7 +106,7 @@ function Sidebarr({
                           fontWeight={"semibold"}
                           _hover={{
                             textDecoration: "underline",
-                            textDecorationColor: "white", // Set underline color to white
+                            textDecorationColor: "white", 
                           }}
                         >
                           CalcHub
